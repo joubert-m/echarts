@@ -169,7 +169,7 @@ function createSeriesData(
             }
             : null;
 
-    data.hasItemOption = false;
+    data.hasItemOption = true;
     data.initData(
         // Try to reuse the data store in sourceManager if using dataset.
         isOriginalSource ? source : store,
